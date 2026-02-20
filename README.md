@@ -1,9 +1,9 @@
 # Market Pulse — Live Stock Market Dashboard
 
-This is a Data Analyst Practical Assessment which requires building 
-a live financial dashboard, so I chose to build a dashboard that 
-describes real-time stock performance, sector allocation, volume 
-trends, and key market indicators.
+A live financial dashboard designed to monitor price trends, volume 
+activity, sector allocation, and key market indicators — enabling 
+fast, data-driven investment decisions.
+
 
 **Built with:** Python | yfinance | Google Sheets | Tableau Public
 
