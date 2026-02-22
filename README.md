@@ -10,7 +10,7 @@
 
 ## 📸 Dashboard Preview
 
-![Market Pulse Dashboard](screenshots/dashboard_overview.png)
+![Market Pulse Dashboard](screenshots)
 
 ---
 
