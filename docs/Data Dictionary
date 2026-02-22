@@ -1,0 +1,54 @@
+# 📖 Data Dictionary — Market Pulse
+
+Field-level documentation for `stock_data.csv`.
+
+---
+
+## Dataset Overview
+
+| Property | Value |
+|---|---|
+| Rows | 1,230 |
+| Columns | 14 |
+| Date Range | August 2025 — February 2026 |
+| Tickers | 10 |
+| Source | Yahoo Finance via yfinance |
+
+---
+
+## Field Definitions
+
+| Field | Type | Description |
+|---|---|---|
+| Date | Date | Trading date. Excludes weekends and holidays. |
+| Ticker | Text | Stock symbol (e.g. AAPL, SPY) |
+| Company | Text | Full company name |
+| Sector | Text | Technology, Finance, Healthcare, Energy, Benchmark |
+| Open | Decimal | Opening price (USD) |
+| High | Decimal | Daily high price (USD) |
+| Low | Decimal | Daily low price (USD) |
+| Close | Decimal | Closing price — primary field used in all charts (USD) |
+| Volume | Integer | Total shares traded. Higher = stronger market conviction |
+| Daily_Return_% | Decimal | Day-over-day price change %. First row per ticker is NULL by design. |
+| Cumulative_Return_% | Decimal | Total return since Aug 2025. Shows overall investment performance. |
+| MA_20 | Decimal | 20-day moving average of Close. First 19 rows per ticker are NULL by design. |
+| Price_vs_MA20 | Decimal | Close minus MA_20. Positive = bullish, Negative = bearish. |
+| Volatility_20d | Decimal | 20-day rolling standard deviation of Daily_Return_%. Higher = more risk. |
+
+---
+
+## 💬 Personal Reflection
+
+This project was built as a junior DA assessment — but it became something more than that.
+
+Going in with almost no Tableau experience, the real challenge wasn't the tools. It was learning to think like an analyst: questioning the data before trusting it, understanding why a chart looks wrong before fixing it, and knowing the difference between a number that's technically correct and one that actually tells a story.
+
+The biggest lesson wasn't technical. It was this — **when you commit fully to something and give it the right time and focus, the growth compounds fast.** What felt impossible on day one became natural by day two.
+
+This was only my second time using Tableau. By the end I had built a multi-page live dashboard with KPI tiles, calculated fields, navigation, and a real ETL pipeline. That didn't happen by accident — it happened because the work was taken seriously.
+
+Data analysis is not just about tools. It's about curiosity, patience, and the willingness to debug the same problem ten different ways until it works.
+
+---
+
+*Author: Samar Aladhadh | February 2026*
